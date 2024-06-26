@@ -29,11 +29,10 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-dependencies</artifactId>
-                <version>${spring-boot.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.22</version> <!-- Actualiza a la última versión disponible -->
+                <scope>provided</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>     
